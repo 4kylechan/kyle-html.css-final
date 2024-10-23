@@ -1,0 +1,29 @@
+#Bt1 {
+    background-color: blue;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    transition: background-color 0.5s, width 0.5s; 
+}
+
+#Bt1:hover {
+    color: black; 
+    background-color: yellow; 
+    width: 300px;
+    box-shadow: 15px 15px 20px;
+}
+
+
+  
+  #Bt1 a {
+    color: white; /* Bağlantı yazısının beyaz olmasını sağlamak */
+    text-decoration: none; /* Alt çizgiyi kaldırmak için */
+    display: flex;
+    justify-content: center;
+  }
+
+
+  
