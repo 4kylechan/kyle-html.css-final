@@ -1,0 +1,79 @@
+*{
+    color: blueviolet;
+    margin: 0;
+    padding: 0;    
+}
+body{
+    background-color: #F0E4D3;
+}
+header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid;
+    border-color: red;
+}
+
+/*left header */
+
+.left-header{
+    display: flex;
+    padding: 3px;
+    align-items: center;
+    
+}
+
+header i{
+    font-size: 18px;
+    align-items: center;
+}
+
+.left-header h2{
+    font-size: 25px;
+    color: red;
+    margin-left: 22px;
+    margin-bottom: 7px;
+}
+
+/*center header */
+
+.center-header{
+    display: flex;
+    align-items: center;
+}
+
+.center-search{
+    background-color: white;
+    display: flex;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 7px;    /*kenarları yumuşatır*/
+}
+
+.center-header input{
+    
+    padding : 2px;
+    margin-bottom: 3.5px;
+    color: black;
+    border: none;
+    outline: none;
+    
+}
+
+.center-search .bi-search{
+    color: black;
+    cursor: pointer;
+}
+
+.center-header .bi-mic{
+    align-items: center;
+    display: flex;
+    color: black;
+    cursor: pointer;
+    font-size: 24px;
+    margin-right: 20px
+}
+
+
+
+

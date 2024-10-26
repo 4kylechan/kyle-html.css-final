@@ -6,6 +6,7 @@
     border-radius: 5px;
     cursor: pointer;
     width: 120px;
+    margin: 15px;
     transition: background-color 0.5s, width 0.5s; 
 }
 
@@ -23,6 +24,22 @@
     text-decoration: none; /* Alt çizgiyi kaldırmak için */
     display: flex;
     justify-content: center;
+  }
+
+  .btn-1{
+    background-color: aquamarine;
+    color: red;
+    border: none;
+    cursor: ;
+    width: 90px;
+    transition: all 1s;
+  }
+
+  .btn-1:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+    transition: all 1s;
+    width: 80px;
   }
 
 
